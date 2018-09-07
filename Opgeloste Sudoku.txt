@@ -1,0 +1,45 @@
+/* To make sure that numbers won't get swapped twice or with themselves, when the row of the main number is equal to the row of the numbers being swapped.
+The column of the numbers being swapped starts at the column of the main number, for the other rows it starts swapping at
+the column which is the beginning of the block.
+E.g, block row and column index are 0
+1 2 3
+4 5 6
+7 8 9
+the main number is 2 (so all numbers have already been swapped with 1), then the swapping row is equal to the main row (both 0)
+so the column where the swapping begins is the main column (which is 1) + 1 and the swapping begins at 3.
+When the swapping row becomes 1, the main row isn't equal to the swapping row and the swapping column begins at 0 (the block column index) */
+
+000000000
+000003085
+001020000
+000507000
+004000100
+090000000
+500000073
+002010000
+000040009
+
+003020600
+900305001
+001806400
+008102900
+700000008
+006708200
+002609500
+800203009
+005010300
+
+987654321
+246173985
+351928746
+128537694
+634892157
+795461832
+519286473
+472319568
+863745219
+
+abcd
+abcd
+abcd
+abcd
